@@ -19,12 +19,15 @@
           }
           {
             packages = with pkgs; [
-              sqlmap
-              nikto
-              wget
-              thc-hydra
-              nmap
-              masscan
+              python311
+              python311Packages.pwntools
+              pwntools
+              pwncat
+              pwndbg
+              gdb
+              poetry
+              metasploit
+              exploitdb
             ];
           };
       });
