@@ -27,6 +27,11 @@ Once your preferred template has been initialized, you can use the provided shel
 
 ## Available templates
 
-| Environment | Template            |
-| :---------- | :------------------ |
-| [crypto]    | [`crypt`](./crypt/) |
+| Environment | Template                  |
+| :---------- | :------------------------ |
+| crypto      | [`crypt`](./crypt/)       |
+| forensic    | [`forensic`](./forensic/) |
+| net         | [`net`](./net/)           |
+| pwn         | [`pwn`](./pwn/)           |
+| rev         | [`rev`](./rev/)           |
+| web         | [`web`](./web/)           |
