@@ -1,0 +1,4 @@
+template.nix
+.direnv/
+target
+result
