@@ -25,6 +25,7 @@
               thc-hydra
               nmap
               masscan
+              burpsuite
             ];
           };
       });
