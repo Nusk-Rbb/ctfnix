@@ -19,12 +19,7 @@
           }
           {
             packages = with pkgs; [
-              sqlmap
-              nikto
-              wget
-              thc-hydra
-              nmap
-              masscan
+              python311
             ];
           };
       });
