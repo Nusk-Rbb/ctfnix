@@ -5,17 +5,17 @@
 To initialize (where `${ENV}` is listed in the table below):
 
 ```shell
-nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#${ENV}"
+nix flake init --template "https://github.com/f/Nusk-Rbb/ctfnix/*#${ENV}"
 ```
 
-Here's an example (for the [`rust`](./rust) template):
+Here's an example (for the [`web`](./web) template):
 
 ```shell
 # Initialize in the current project
-nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#rust"
+nix flake init --template "https://github.com/f/Nusk-Rbb/ctfnix/*#web"
 
 # Create a new project
-nix flake new --template "https://flakehub.com/f/the-nix-way/dev-templates/*#rust" ${NEW_PROJECT_DIRECTORY}
+nix flake new --template "https://github.com/f/Nusk-Rbb/ctfnix/*#web" ${NEW_PROJECT_DIRECTORY}
 ```
 
 ## How to use the templates
