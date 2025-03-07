@@ -1,5 +1,5 @@
 {
-  description = "A Nix-flake-based Web environment";
+  description = "A Nix-flake-based Forensics environment";
 
   inputs.nixpkgs.url = "https://flakehub.com/f/NixOS/nixpkgs/0.1.*.tar.gz";
 
@@ -19,12 +19,11 @@
           }
           {
             packages = with pkgs; [
-              sqlmap
-              nikto
-              wget
-              thc-hydra
-              nmap
-              masscan
+              volatility3
+              volatility2-bin
+              autopsy
+              netcat
+              rekall
             ];
           };
       });
