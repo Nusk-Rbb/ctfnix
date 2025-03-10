@@ -20,6 +20,10 @@
           {
             packages = with pkgs; [
               python311
+              hash-identifier
+              john
+              hashcat
+              
             ];
           };
       });
