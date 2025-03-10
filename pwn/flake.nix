@@ -19,11 +19,10 @@
           }
           {
             packages = with pkgs; [
-              python311
-              python311Packages.pwntools
+              python312
+              python312Packages.pwntools
               pwntools
               pwncat
-              pwndbg
               gdb
               poetry
               metasploit
